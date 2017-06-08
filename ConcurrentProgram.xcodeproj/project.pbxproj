@@ -15,6 +15,11 @@
 		015DABB01EA4A33F002013A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 015DABAE1EA4A33F002013A0 /* LaunchScreen.storyboard */; };
 		015DABBB1EA4A33F002013A0 /* ConcurrentProgramTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 015DABBA1EA4A33F002013A0 /* ConcurrentProgramTests.m */; };
 		015DABC61EA4A33F002013A0 /* ConcurrentProgramUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 015DABC51EA4A33F002013A0 /* ConcurrentProgramUITests.m */; };
+		015DABD51EA5E6AD002013A0 /* RootTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 015DABD41EA5E6AD002013A0 /* RootTableViewController.m */; };
+		015DABD91EA897D1002013A0 /* OperationDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 015DABD81EA897D1002013A0 /* OperationDemoViewController.m */; };
+		015DABDC1EA8B590002013A0 /* AsyncTaskDependencyVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 015DABDB1EA8B590002013A0 /* AsyncTaskDependencyVC.m */; };
+		01B5BB351EA8CF250066B2A2 /* AFRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B5BB341EA8CF250066B2A2 /* AFRequestOperation.m */; };
+		329250B34E0F91761A69F591 /* libPods-ConcurrentProgram.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CAFA6794EC377C19EBA0A52E /* libPods-ConcurrentProgram.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,17 @@
 		015DABC11EA4A33F002013A0 /* ConcurrentProgramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConcurrentProgramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		015DABC51EA4A33F002013A0 /* ConcurrentProgramUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConcurrentProgramUITests.m; sourceTree = "<group>"; };
 		015DABC71EA4A33F002013A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		015DABD31EA5E6AD002013A0 /* RootTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootTableViewController.h; sourceTree = "<group>"; };
+		015DABD41EA5E6AD002013A0 /* RootTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootTableViewController.m; sourceTree = "<group>"; };
+		015DABD71EA897D1002013A0 /* OperationDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OperationDemoViewController.h; sourceTree = "<group>"; };
+		015DABD81EA897D1002013A0 /* OperationDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OperationDemoViewController.m; sourceTree = "<group>"; };
+		015DABDA1EA8B590002013A0 /* AsyncTaskDependencyVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncTaskDependencyVC.h; sourceTree = "<group>"; };
+		015DABDB1EA8B590002013A0 /* AsyncTaskDependencyVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncTaskDependencyVC.m; sourceTree = "<group>"; };
+		01B5BB331EA8CF250066B2A2 /* AFRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFRequestOperation.h; sourceTree = "<group>"; };
+		01B5BB341EA8CF250066B2A2 /* AFRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFRequestOperation.m; sourceTree = "<group>"; };
+		1ABAC64E707FDC09B9ED1946 /* Pods-ConcurrentProgram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConcurrentProgram.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ConcurrentProgram/Pods-ConcurrentProgram.debug.xcconfig"; sourceTree = "<group>"; };
+		70699E67EDCD273D2EE8DF48 /* Pods-ConcurrentProgram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConcurrentProgram.release.xcconfig"; path = "Pods/Target Support Files/Pods-ConcurrentProgram/Pods-ConcurrentProgram.release.xcconfig"; sourceTree = "<group>"; };
+		CAFA6794EC377C19EBA0A52E /* libPods-ConcurrentProgram.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ConcurrentProgram.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				329250B34E0F91761A69F591 /* libPods-ConcurrentProgram.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +102,8 @@
 				015DABB91EA4A33F002013A0 /* ConcurrentProgramTests */,
 				015DABC41EA4A33F002013A0 /* ConcurrentProgramUITests */,
 				015DAB9E1EA4A33E002013A0 /* Products */,
+				FD3F0BD4BD5AC52C03A1BC06 /* Pods */,
+				E2EDDAC1FA0EF00F46E5DADE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,8 +122,16 @@
 			children = (
 				015DABA31EA4A33E002013A0 /* AppDelegate.h */,
 				015DABA41EA4A33E002013A0 /* AppDelegate.m */,
+				015DABD31EA5E6AD002013A0 /* RootTableViewController.h */,
+				015DABD41EA5E6AD002013A0 /* RootTableViewController.m */,
 				015DABA61EA4A33E002013A0 /* ViewController.h */,
 				015DABA71EA4A33E002013A0 /* ViewController.m */,
+				015DABD71EA897D1002013A0 /* OperationDemoViewController.h */,
+				015DABD81EA897D1002013A0 /* OperationDemoViewController.m */,
+				015DABDA1EA8B590002013A0 /* AsyncTaskDependencyVC.h */,
+				015DABDB1EA8B590002013A0 /* AsyncTaskDependencyVC.m */,
+				01B5BB331EA8CF250066B2A2 /* AFRequestOperation.h */,
+				01B5BB341EA8CF250066B2A2 /* AFRequestOperation.m */,
 				015DABA91EA4A33E002013A0 /* Main.storyboard */,
 				015DABAC1EA4A33F002013A0 /* Assets.xcassets */,
 				015DABAE1EA4A33F002013A0 /* LaunchScreen.storyboard */,
@@ -140,6 +167,23 @@
 			path = ConcurrentProgramUITests;
 			sourceTree = "<group>";
 		};
+		E2EDDAC1FA0EF00F46E5DADE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CAFA6794EC377C19EBA0A52E /* libPods-ConcurrentProgram.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FD3F0BD4BD5AC52C03A1BC06 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1ABAC64E707FDC09B9ED1946 /* Pods-ConcurrentProgram.debug.xcconfig */,
+				70699E67EDCD273D2EE8DF48 /* Pods-ConcurrentProgram.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +191,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 015DABCA1EA4A33F002013A0 /* Build configuration list for PBXNativeTarget "ConcurrentProgram" */;
 			buildPhases = (
+				0989603CF520F3F92460128D /* [CP] Check Pods Manifest.lock */,
 				015DAB991EA4A33E002013A0 /* Sources */,
 				015DAB9A1EA4A33E002013A0 /* Frameworks */,
 				015DAB9B1EA4A33E002013A0 /* Resources */,
+				D1985D67E97E0836902D7A91 /* [CP] Embed Pods Frameworks */,
+				FEED88DD1939AAD117105AC1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -271,6 +318,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0989603CF520F3F92460128D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D1985D67E97E0836902D7A91 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ConcurrentProgram/Pods-ConcurrentProgram-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FEED88DD1939AAD117105AC1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ConcurrentProgram/Pods-ConcurrentProgram-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		015DAB991EA4A33E002013A0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -278,7 +373,11 @@
 			files = (
 				015DABA81EA4A33E002013A0 /* ViewController.m in Sources */,
 				015DABA51EA4A33E002013A0 /* AppDelegate.m in Sources */,
+				015DABD91EA897D1002013A0 /* OperationDemoViewController.m in Sources */,
+				015DABDC1EA8B590002013A0 /* AsyncTaskDependencyVC.m in Sources */,
+				01B5BB351EA8CF250066B2A2 /* AFRequestOperation.m in Sources */,
 				015DABA21EA4A33E002013A0 /* main.m in Sources */,
+				015DABD51EA5E6AD002013A0 /* RootTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,6 +526,7 @@
 		};
 		015DABCB1EA4A33F002013A0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1ABAC64E707FDC09B9ED1946 /* Pods-ConcurrentProgram.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = U96PM2V9GH;
@@ -439,6 +539,7 @@
 		};
 		015DABCC1EA4A33F002013A0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70699E67EDCD273D2EE8DF48 /* Pods-ConcurrentProgram.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = U96PM2V9GH;
@@ -518,6 +619,7 @@
 				015DABCC1EA4A33F002013A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		015DABCD1EA4A33F002013A0 /* Build configuration list for PBXNativeTarget "ConcurrentProgramTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +628,7 @@
 				015DABCF1EA4A33F002013A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		015DABD01EA4A33F002013A0 /* Build configuration list for PBXNativeTarget "ConcurrentProgramUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +637,7 @@
 				015DABD21EA4A33F002013A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
